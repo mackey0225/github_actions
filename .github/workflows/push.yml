@@ -1,0 +1,12 @@
+name: Trigger push
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  job:
+    name: Job
+    runs-on: ubuntu-latest
+    run: echo 'Test'
+    
